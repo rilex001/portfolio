@@ -10,10 +10,10 @@ function Info() {
                 <h2>Front - end developer</h2>
                 <p className="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
                 <button className="button">Download CV</button>
-                <ul className="social">
-                    <li><a href="#"><img src={ghicon} alt="facebook" className='iconimg'/></a></li>
-                    <li><a href="#"><img src={twicon} alt="twitter" className='iconimg'/></a></li>
-                </ul>
+                <div className="mediacontainer">
+                    <div className='media'><a href="#"><img src={ghicon} alt="facebook" className='iconimg'/></a></div>
+                    <div className='media'><a href="#"><img src={twicon} alt="twitter" className='iconimg'/></a></div>
+                </div>
             </div>
             <div className="welcome-img">
                 <img 

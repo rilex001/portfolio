@@ -1,11 +1,16 @@
 /* variables */
 :root{
-  --primary: #F7CAC9;
-  --secondary:   #92A8D1;
+  /* --primary: #F7CAC9;
+  --secondary:   #92A8D1; */
+  --primary:   #D9B48FFF;
+  --secondary: #2460A7FF;
+  --third: #85B3D1FF; 
+  --fourth: #B3C7D6FF
 }
 
 h1,h2,h3,h4{
-  color: #DDDBFF;
+  /* color: #DDDBFF; */
+  color: var(--fourth);
   font-weight: normal;
   line-height: 1.4em;
 }
@@ -110,7 +115,7 @@ li{
 #contact{
   margin-top: 25px;
   padding: 30px 20px;
-  background: #080936;
+  background: var(--third);
 }
 #contact h3{
   margin-bottom: 0;
@@ -170,4 +175,15 @@ footer img{
 }
 .iconimg{
   width: 40px;
+}
+
+
+.mediacontainer{
+  padding: 15px;
+  display: flex;
+  align-content: flex-start;
+}
+
+.media{
+  margin-left: 15px;
 }
