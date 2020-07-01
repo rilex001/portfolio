@@ -7,7 +7,7 @@ function Projects() {
             <h2 className='center'>Portfolio</h2>
 
             <Project 
-                name ='Project Name' 
+                name ='Weather app' 
                 info ='A platform for automating data collection and reporting throughout teams, operations and supply chains.'
                 picture = {projectimage}
             />

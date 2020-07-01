@@ -7,7 +7,7 @@ function Info() {
     return (
         <div id="welcome" className="grid">
             <div className="welcome-text">
-                <h2>Front - end developer</h2>
+                <h2 className='title'>Front - end developer</h2>
                 <p className="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
                 <button className="button">Download CV</button>
                 <div className="mediacontainer">

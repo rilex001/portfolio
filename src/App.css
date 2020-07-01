@@ -51,8 +51,12 @@ li{
   display: none;
 }
 .leading{
-  font-size: 1.1em;
+  font-size: 1.5em;
   color: white;
+}
+
+.title{
+  font-size: 1.8em;
 }
 
 .button{
@@ -82,13 +86,14 @@ li{
 .welcome-img{
   grid-column: 6/9;
   margin-top: 1em;
+  display: none;
 }
 
 #welcome{
   padding: 0 20px 20px 20px;
 }
 .welcome-text{
-  grid-column: 1/6;
+  grid-column: 1/8;
 }
 
 .center{
@@ -115,7 +120,7 @@ li{
 #contact{
   margin-top: 25px;
   padding: 30px 20px;
-  background: var(--third);
+  background: #2976B4;
 }
 #contact h3{
   margin-bottom: 0;
@@ -140,11 +145,11 @@ li{
 }
 
 input,textarea{
-  background: rgba(255,255,255,0.05);
+  background: ;
   padding: 10px 16px;
   border-radius: 20px;
   border: 2px solid #9893D8;
-  color: #f2f2f2;
+  color: black;
   font-size: 1em;
 }
 
