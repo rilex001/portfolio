@@ -21,7 +21,9 @@ body{
   text-decoration: none;
   background-color: var(--secondary);
 }
-
+a{
+  text-decoration: none;
+}
 .list{
   text-decoration: none;
 }

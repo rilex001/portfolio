@@ -1,22 +1,53 @@
 import React from 'react'
-import projectimage from '../img/img2.JPG'
 import Project from './Project'
+import country from '../img/countr.png'
+import weather from '../img/weather.png'
+import cosmo from '../img/cosmo.png'
 function Projects() {
     return (
         <div id='portfolio' className='projectcontainer'>
             <h2 className='center'>Portfolio</h2>
 
             <Project 
-                name ='Weather app' 
+                name ='Country' 
                 info ='A platform for automating data collection and reporting throughout teams, operations and supply chains.'
-                picture = {projectimage}
+                picture = {country}
+                sitelink = 'https://elastic-mcnulty-6eb072.netlify.app/'
+                codelink = 'https://github.com/rilex001/countries'
             />
 
             <Project 
-                name ='Novi projekat' 
+                name ='Weather app' 
                 info ='Proba 123'
-                picture = {projectimage}
+                picture = {weather}
+                sitelink = 'https://thirsty-hamilton-e8bb3c.netlify.app/'
+                codelink = 'https://github.com/rilex001/weatherproject'
             />
+
+            <Project 
+                name ='Cosmo Junkie' 
+                info ='Mobile first responsive website'
+                picture = {cosmo}
+                sitelink = 'https://mystifying-lamarr-868bb6.netlify.app/'
+                codelink = 'https://github.com/rilex001/Mobile-First-Responsive'
+            />
+
+            <Project 
+                name ='Bordino' 
+                info ='Application for Raf challenge 2020'
+                picture = {cosmo}
+                sitelink = ''
+                codelink = 'https://github.com/rilex001/Raf-challenge2020'
+            />
+
+            <Project 
+                name ='Portfolio' 
+                info ='React portfolio'
+                picture = {cosmo}
+                sitelink = ''
+                codelink = 'https://github.com/rilex001/portfolio'
+            />
+
 
             
 

@@ -2,17 +2,17 @@ import React from 'react'
 import image1 from '../img/slika.jpg'
 import twicon from '../img/icon_tw.svg'
 import ghicon from '../img/github-icon.svg'
+import pdf from '../img/cv.pdf'
 
 function Info() {
     return (
         <div id="welcome" className="grid">
             <div className="welcome-text">
-                <h2 className='title'>Front - end developer</h2>
-                <p className="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
-                <button className="button">Download CV</button>
+                <p className="leading">My name is Nikola. I'm computer science student and web developer focused on crafting clean & user-friendly experiences</p>
+                <a className="button" href={pdf} target='_blank'>Download CV</a>
                 <div className="mediacontainer">
-                    <div className='media'><a href="#"><img src={ghicon} alt="facebook" className='iconimg'/></a></div>
-                    <div className='media'><a href="#"><img src={twicon} alt="twitter" className='iconimg'/></a></div>
+                    <div className='media'><a href="https://github.com/rilex001" target='_blank'><img src={ghicon} alt="facebook" className='iconimg'/></a></div>
+                    <div className='media'><a href="https://twitter.com/Nikola06213931" target='_blank'><img src={twicon} alt="twitter" className='iconimg'/></a></div>
                 </div>
             </div>
             <div className="welcome-img">
