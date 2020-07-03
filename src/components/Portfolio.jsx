@@ -3,6 +3,8 @@ import Project from './Project'
 import country from '../img/countr.png'
 import weather from '../img/weather.png'
 import cosmo from '../img/cosmo.png'
+import bordino from '../img/bordino.png'
+import todo from '../img/todo.png'
 function Projects() {
     return (
         <div id='portfolio' className='projectcontainer'>
@@ -35,17 +37,17 @@ function Projects() {
             <Project 
                 name ='Bordino' 
                 info ='Application for Raf challenge 2020'
-                picture = {cosmo}
+                picture = {bordino}
                 sitelink = ''
                 codelink = 'https://github.com/rilex001/Raf-challenge2020'
             />
 
             <Project 
-                name ='Portfolio' 
-                info ='React portfolio'
-                picture = {cosmo}
+                name ='Todo app' 
+                info ='React todo app'
+                picture = {todo}
                 sitelink = ''
-                codelink = 'https://github.com/rilex001/portfolio'
+                codelink = 'https://github.com/rilex001/todoapp'
             />
 
 
