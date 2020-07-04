@@ -1,7 +1,5 @@
 /* variables */
 :root{
-  /* --primary: #F7CAC9;
-  --secondary:   #92A8D1; */
   --primary:   #D9B48FFF;
   --secondary: #2460A7FF;
   --third: #85B3D1FF; 
@@ -39,14 +37,16 @@ li{
   gap: 10px;
   box-sizing: border-box;
   align-items: center;
+  padding: 0px;
 }
 .navigation{
   margin: 0 20px;
+  padding: 0px;
 }
 .navigation h1{
   grid-column: 1/4;
   grid-row: 1;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   border-bottom: 3px solid var(--primary);
   display: inline-block;
 }
@@ -225,13 +225,15 @@ footer img{
 
 @media screen and (min-width: 800px){
   h1,h2,h3,h4{
-    line-height: 1.8em;
+    line-height: 1.4em;
   }
 
   .projectinfo{
     font-size: 1.8em;
   }
-
+  h1{
+    font-size: 3em;
+  }
   h2{
     font-size: 2.1em;
   }
@@ -239,8 +241,6 @@ footer img{
   h3{
     font-size: 1.9em;
   }
-
-  
 
   .welcome-text{
     grid-column: 1/6;
@@ -250,7 +250,7 @@ footer img{
   .projectimage{
     margin: 5px 15px;
     width: auto;
-    height: 150px;
+    height: 220px;
   }
   
   .projectinfo{
@@ -283,9 +283,6 @@ footer img{
     border-radius: 30px;
   }
 
-  .projectimage{
-    height: 220px;
-  }
 
   footer .copyright{
     grid-column: 1/5;
@@ -314,4 +311,79 @@ footer img{
     font-size: 1em;
   }
 
+}
+
+@media screen and (min-width: 1200px){
+
+  .projectinfo{
+    font-size: 2.2em;
+  }
+
+  h1{
+    font-size: 4em;
+  }
+  h2{
+    font-size: 2.8em;
+  }
+
+  h3{
+    font-size: 2.6em;
+  }
+
+  .leading{
+    font-size: 2.2em;
+  }
+
+  .navigation h1{
+    grid-column: 1/3;
+  }
+
+  .navigation{
+    margin: 0px 25px;
+  }
+
+  .navigation ul{
+    display: flex;
+    grid-column: 6/9;
+    justify-content: flex-end;
+    align-self: center;
+  }
+
+  .navigation li{
+    margin-left: 20px;
+    font-size: 2em;
+  }
+  
+  .navlink{
+    color: white;
+  }
+  a:hover{
+    color: black;
+  }
+
+  .profileimage{
+    height: 450px;
+  }
+
+  .button{
+    padding: 12px 15px;
+    font-size: 1.3em;
+  }
+
+  .projectimage{
+    margin: 5px 35px;
+    width: auto;
+    height: 300px;
+  }
+  
+  .projectinfo{
+    font-size: 1.2;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  .program{
+    font-size: 1.5em;
+  }
+  
 }

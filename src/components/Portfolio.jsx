@@ -18,7 +18,7 @@ function Projects() {
 
             <Project 
                 name ='Country' 
-                info ='A platform for automating data collection and reporting throughout teams, operations and supply chains.'
+                info ='REST Countries API with color theme switcher frontend mentor challenge finished with React user can search filter country and see all informations about country api is: https://restcountries.eu/  user also can change theme '
                 picture = {country}
                 sitelink = 'https://elastic-mcnulty-6eb072.netlify.app/'
                 codelink = 'https://github.com/rilex001/countries'
@@ -28,7 +28,7 @@ function Projects() {
 
             <Project 
                 name ='Weather app' 
-                info ='Proba 123'
+                info ='Usee enter a location and apllication give user information about temperature, humidity and weather. Api what i use for application is: https://www.accuweather.com/'
                 picture = {weather}
                 sitelink = 'https://thirsty-hamilton-e8bb3c.netlify.app/'
                 codelink = 'https://github.com/rilex001/weatherproject'
@@ -37,7 +37,7 @@ function Projects() {
 
             <Project 
                 name ='Cosmo Junkie' 
-                info ='Mobile first responsive website'
+                info ='Mobile first responsive website where i practice responsive desing, flexbox and grid'
                 picture = {cosmo}
                 sitelink = 'https://mystifying-lamarr-868bb6.netlify.app/'
                 codelink = 'https://github.com/rilex001/Mobile-First-Responsive'
@@ -46,7 +46,7 @@ function Projects() {
 
             <Project 
                 name ='Bordino' 
-                info ='Application for Raf challenge 2020'
+                info ='Application for Raf challenge 2020. Theme for competition is application in board game. Application have user login and user can create event and public public board game event'
                 picture = {bordino}
                 sitelink = ''
                 codelink = 'https://github.com/rilex001/Raf-challenge2020'
@@ -55,7 +55,7 @@ function Projects() {
 
             <Project 
                 name ='Todo app' 
-                info ='React todo app'
+                info ='React todo app. User can create todo and delete. In app i use react class component'
                 picture = {todo}
                 sitelink = ''
                 codelink = 'https://github.com/rilex001/todoapp'
