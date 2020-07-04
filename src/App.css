@@ -104,7 +104,6 @@ li{
 
 .projectimage{
   margin: 5px auto;
-
   display: block;
   width: auto;
   height: 150px;
@@ -208,4 +207,42 @@ footer img{
   border-radius: 50px;
   color: black;
   padding: 2px;
+}
+
+@media screen and(min-width: 620px){
+  .navigation h1{
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 800px){
+  h1,h2,h3,h4{
+    line-height: 1.8em;
+  }
+
+  .welcome-text{
+    grid-column: 1/7;
+    font-size: 1.3em;
+  }
+
+  .projectimage{
+    margin: 5px 15px;
+    width: auto;
+    height: 150px;
+  }
+  
+  .projectinfo{
+    font-size: 1.2;
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .buttoncontainer{
+    margin-left: 5px;
+  }
+
+  .project{
+    display: flex;
+  }
+
 }
