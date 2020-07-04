@@ -209,6 +209,7 @@ footer img{
   color: black;
   padding: 2px;
 }
+
 @media screen and (min-width: 620px){
   .projectinfo{
     font-size: 1.5em;
@@ -227,9 +228,23 @@ footer img{
     line-height: 1.8em;
   }
 
+  .projectinfo{
+    font-size: 1.8em;
+  }
+
+  h2{
+    font-size: 2.1em;
+  }
+
+  h3{
+    font-size: 1.9em;
+  }
+
+  
+
   .welcome-text{
-    grid-column: 1/7;
-    font-size: 1.3em;
+    grid-column: 1/6;
+    font-size: 1.4em;
   }
 
   .projectimage{
@@ -250,6 +265,53 @@ footer img{
 
   .project{
     display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .welcome-img{
+    grid-column: 6/9;
+    margin-top: 1em;
+    display: grid;
+  }
+
+  .profileimage{
+    margin: 5px auto;
+    display: block;
+    width: auto;
+    height: 250px;
+    border-radius: 30px;
+  }
+
+  .projectimage{
+    height: 220px;
+  }
+
+  footer .copyright{
+    grid-column: 1/5;
+    font-size: 1.5em;
+  }
+
+  #contact form{
+    width: 90%;
+    max-width: 560px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  
+  #contact .button{
+    margin-top: 10px;
+    font-size: 1.8em;
+  }
+  
+  input,textarea{
+    background: ;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid #9893D8;
+    color: black;
+    font-size: 1em;
   }
 
 }

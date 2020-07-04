@@ -5,6 +5,7 @@ import weather from '../img/weather.png'
 import cosmo from '../img/cosmo.png'
 import bordino from '../img/bordino.png'
 import todo from '../img/todo.png'
+
 function Projects() {
     const countrystack  = ['React', 'Html', 'Css', 'React Router']
     const weatherstack = ['React', 'Html', 'Css']
@@ -22,6 +23,7 @@ function Projects() {
                 sitelink = 'https://elastic-mcnulty-6eb072.netlify.app/'
                 codelink = 'https://github.com/rilex001/countries'
                 stack = {countrystack}
+                
             />
 
             <Project 

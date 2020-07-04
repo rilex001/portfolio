@@ -1,18 +1,19 @@
 import React from 'react'
+import {v4} from 'uuid';
 
 
 function Project({name, info, picture, sitelink, codelink, stack}) {
     return (
-        <>
+        <div key={v4()} >
             <h3 className='center'>{name}</h3>
-            <div className='project'>
+            <div className='project' >
                 <div>
             <img className='projectimage' src={picture} alt='video' />
             </div>
-            <div>
-            <p className='projectinfo'>{info}</p>
+            <div className='projecttext'>
+            <p className='projectinfo center'>{info}</p>
             <div className='stack'>
-                {stack && stack.map(item => <span className='program'><b>{item}</b></span>)}
+                {stack && stack.map(item => <span className='program' key={v4()}><b>{item}</b></span>)}
             </div>
             <div className='buttoncontainer center'>
             {sitelink.length > 1 ? <a className='button' href={sitelink} target='blank'>Visit site</a> : null}
@@ -20,7 +21,7 @@ function Project({name, info, picture, sitelink, codelink, stack}) {
             </div>
             </div>
             </div>
-        </>
+        </div>
     )
 }
 

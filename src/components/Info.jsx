@@ -18,7 +18,7 @@ function Info() {
             <div className="welcome-img">
                 <img 
                     src={image1} 
-                    alt="pic of planet"
+                    alt="profile"
                     className='profileimage'
                 />
             </div>
