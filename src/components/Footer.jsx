@@ -8,8 +8,8 @@ function Footer() {
             <div className="grid">
                 <p className="copyright">Copyright 2020 Nikola Ristic</p>
                 <ul className="social">
-                    <li><a href="#"><img src={ghicon} alt="facebook" /></a></li>
-                    <li><a href="#"><img src={twicon} alt="twitter" /></a></li>
+                    <li><a href="https://github.com/rilex001" target='blank'><img src={ghicon} alt="facebook" /></a></li>
+                    <li><a href="https://twitter.com/Nikola06213931" target='blank'><img src={twicon} alt="twitter" /></a></li>
                 </ul>
             </div>
         </footer>

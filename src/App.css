@@ -195,3 +195,17 @@ footer img{
 .media{
   margin-left: 15px;
 }
+
+.stack{
+  margin: 7px auto;
+  text-align: center;
+  padding: 4px;
+}
+
+.program{
+  background-color: var(--fourth);
+  margin-left: 5px;
+  border-radius: 50px;
+  color: black;
+  padding: 2px;
+}
