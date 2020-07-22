@@ -4,14 +4,19 @@ import country from '../img/countr.png'
 import weather from '../img/weather.png'
 import cosmo from '../img/cosmo.png'
 import bordino from '../img/bordino.png'
-import todo from '../img/todo.png'
+import todo from '../img/reactnative.png'
+import search from '../img/search.png'
+import jobpicture from '../img/jobs.png'
+
 
 function Projects() {
     const countrystack  = ['React', 'Html', 'Css', 'React Router']
     const weatherstack = ['React', 'Html', 'Css']
     const cosmostack = ['Html', 'Css']
     const bordinostack = ['Html', 'Css', 'Javascript', 'Materialize', 'Firebase']
-    const todostack = ['React', 'Html', 'Materialize']
+    const todostack = ['ReactNative']
+    const newsstack = ['React', 'Html', 'CSS']
+    const jobs = ['React', 'React-Boostrap']
     return (
         <div id='portfolio' className='projectcontainer'>
             <h2 className='center'>Portfolio</h2>
@@ -54,11 +59,29 @@ function Projects() {
             />
 
             <Project 
+                name= 'Search news'
+                info='Application for search top view news in the world'
+                picture = {search}
+                sitelink = ''
+                codelink = 'https://github.com/rilex001/newsapi'
+                stack = {newsstack}
+            />
+
+            <Project
+                name= 'Jobs'
+                info='Application for finding a work'
+                picture = {jobpicture}
+                sitelink = 'https://amazing-sinoussi-7b7336.netlify.app/'
+                codelink = 'https://github.com/rilex001/githubjobs'
+                stack = {jobs}
+            />
+
+            <Project 
                 name ='Todo app' 
-                info ='React todo app. User can create todo and delete. In app i use react class component'
+                info ='ReactNative todo app. User can create and delete todo .'
                 picture = {todo}
                 sitelink = ''
-                codelink = 'https://github.com/rilex001/todoapp'
+                codelink = 'https://github.com/rilex001/reactnative'
                 stack = {todostack}
             />
 
