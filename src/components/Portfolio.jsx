@@ -69,7 +69,7 @@ function Projects() {
 
             <Project
                 name= 'Jobs'
-                info='Application for finding a work'
+                info='Application for finding a work. Application is build only with function compoent, and use https://jobs.github.com/api api '
                 picture = {jobpicture}
                 sitelink = 'https://amazing-sinoussi-7b7336.netlify.app/'
                 codelink = 'https://github.com/rilex001/githubjobs'
@@ -78,7 +78,7 @@ function Projects() {
 
             <Project 
                 name ='Todo app' 
-                info ='ReactNative todo app. User can create and delete todo .'
+                info ='ReactNative todo app. User can create a news todo and delete todo '
                 picture = {todo}
                 sitelink = ''
                 codelink = 'https://github.com/rilex001/reactnative'
