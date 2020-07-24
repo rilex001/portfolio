@@ -1,14 +1,14 @@
 /* variables */
 :root{
-  --primary:   #D9B48FFF;
-  --secondary: #2460A7FF;
-  --third: #85B3D1FF; 
-  --fourth: #B3C7D6FF
+  --primary:   #EF6C33;
+  --secondary: #0C4A60;
+  --third: #ABDFF1; 
+  --fourth: #E1DDDB;
+
 }
 
 h1,h2,h3,h4{
-  /* color: #DDDBFF; */
-  color: var(--fourth);
+  color: var(--third);
   font-weight: normal;
   line-height: 1.4em;
 }
@@ -55,7 +55,7 @@ li{
 }
 .leading{
   font-size: 1.5em;
-  color: white;
+  color: var(--third);
 }
 
 .title{
@@ -114,7 +114,7 @@ li{
 
 .projectinfo{
   font-size: 1.2;
-  color: aliceblue;
+  color: #ABDFF1;
   text-align: center;
 }
 
@@ -125,7 +125,7 @@ li{
 #contact{
   margin-top: 25px;
   padding: 30px 20px;
-  background: #2976B4;
+  background: #0c5a60;
 }
 #contact h3{
   margin-bottom: 0;
@@ -160,7 +160,7 @@ input,textarea{
 
 footer {
   padding: 10px 20px;
-  background-color: #0A0A333;
+  background-color: var(--secondary);
 }
 
 footer .copyright{
@@ -266,8 +266,6 @@ footer img{
   
   .projectinfo{
     font-size: 1.2;
-    color: aliceblue;
-    text-align: center;
   }
   
   .buttoncontainer{
@@ -282,8 +280,9 @@ footer img{
   
 
   .projecttext{
-    margin-left: 15px;
+    margin: 0px 15px;
     flex: 1;
+    font-size: 0.8em;
   }
 
   .welcome-img{
@@ -414,7 +413,6 @@ footer img{
   
   .projectinfo{
     font-size: 1.2;
-    color: aliceblue;
     text-align: center;
   }
 

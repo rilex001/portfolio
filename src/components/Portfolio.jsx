@@ -23,7 +23,7 @@ function Projects() {
 
             <Project 
                 name ='Country' 
-                info ='REST Countries API with color theme switcher frontend mentor challenge finished with React user can search filter country and see all informations about country api is: https://restcountries.eu/  user also can change theme '
+                info ='REST Countries API with color theme switcher frontend mentor challenge. Users can see all countries from the API on the homepage, search for a country using input field, filter countries by region, click on a country to see more detailed information on a separate page, toggle the color scheme bewtween light and dark mode '
                 picture = {country}
                 sitelink = 'https://elastic-mcnulty-6eb072.netlify.app/'
                 codelink = 'https://github.com/rilex001/countries'
@@ -33,7 +33,7 @@ function Projects() {
 
             <Project 
                 name ='Weather app' 
-                info ='Usee enter a location and apllication give user information about temperature, humidity and weather. Api what i use for application is: https://www.accuweather.com/'
+                info ='A simple React weather app that displays weather information. Api what i use for application is: https://www.accuweather.com/'
                 picture = {weather}
                 sitelink = 'https://thirsty-hamilton-e8bb3c.netlify.app/'
                 codelink = 'https://github.com/rilex001/weatherproject'
