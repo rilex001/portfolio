@@ -7,7 +7,7 @@ function Info() {
     return (
         <div id="welcome" className="grid">
             <div className="welcome-text">
-                <p className="leading">My name is Nikola. I'm computer science student and full-stack developer focused on crafting clean & user-friendly experiences</p>
+                <p className="leading">My name is Nikola. I'm a computer science student and full-stack developer focused on crafting clean & user-friendly experiences</p>
                 <a className="button" href='' target='_blank' rel='noopener noreferrer'>Download CV</a>
                 <div className="mediacontainer">
                     <div className='media'><a href="https://github.com/rilex001" target='_blank' rel='noopener noreferrer'><img src={ghicon} alt="facebook" className='iconimg'/></a></div>

@@ -1,8 +1,8 @@
 /* variables */
 :root{
-  --primary:   #EF6C33;
-  --secondary: #0C4A60;
-  --third: #ABDFF1; 
+  --primary:   #A9A9A9;
+  --secondary: #F0FFFF;
+  --third: Black; 
   --fourth: #E1DDDB;
 
 }
@@ -114,7 +114,6 @@ li{
 
 .projectinfo{
   font-size: 1.2;
-  color: #ABDFF1;
   text-align: center;
 }
 
@@ -125,7 +124,7 @@ li{
 #contact{
   margin-top: 25px;
   padding: 30px 20px;
-  background: #0c5a60;
+  background-color: Ivory;
 }
 #contact h3{
   margin-bottom: 0;
@@ -158,15 +157,21 @@ input,textarea{
   font-size: 1em;
 }
 
+
+
 footer {
   padding: 10px 20px;
   background-color: var(--secondary);
 }
 
-footer .copyright{
+footer {
   grid-column: 1/3;
   font-size: 0.8em;
   color: white;
+}
+
+.copyright {
+  color: var(--third);
 }
 
 footer .social{
@@ -213,8 +218,6 @@ footer img{
   color: black;
   padding: 4px;
 }
-
-
 
 
 
@@ -390,10 +393,10 @@ footer img{
   }
   
   .navlink{
-    color: white;
+    color: var(--primary);
   }
   a:hover{
-    color: black;
+    color: var(--third);
   }
 
   .profileimage{

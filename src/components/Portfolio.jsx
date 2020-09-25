@@ -13,7 +13,7 @@ function Projects() {
     const countrystack  = ['React', 'Html', 'Css', 'React Router']
     const weatherstack = ['React', 'Html', 'Css']
     const cosmostack = ['Html', 'Css']
-    const bordinostack = ['Html', 'Css', 'Javascript', 'Materialize', 'Firebase']
+    const bordinostack = ['Html', 'Css', 'Javascript', 'Firebase']
     const todostack = ['ReactNative']
     const newsstack = ['React', 'Html', 'CSS']
     const jobs = ['React', 'React-Boostrap']
