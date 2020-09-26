@@ -7,7 +7,7 @@ import bordino from '../img/bordino.png'
 import todo from '../img/reactnative.png'
 import search from '../img/search.png'
 import jobpicture from '../img/jobs.png'
-
+import books from '../img/booksproject.png'
 
 function Projects() {
     const countrystack  = ['React', 'Html', 'Css', 'React Router']
@@ -17,6 +17,7 @@ function Projects() {
     const todostack = ['ReactNative']
     const newsstack = ['React', 'Html', 'CSS']
     const jobs = ['React', 'React-Boostrap']
+    const booksproject = ['React', 'Node', 'PostgreSQL']
     return (
         <div id='portfolio' className='projectcontainer'>
             <h2 className='center'>Portfolio</h2>
@@ -30,6 +31,16 @@ function Projects() {
                 stack = {countrystack}
                 
             />
+
+            <Project 
+                name ='Book Project' 
+                info ='PERN stack CRUD application with authentication and authorization '
+                picture = {books}
+                sitelink = ''
+                codelink = 'https://github.com/rilex001/PERN-TODO/tree/master/Books/auth'
+                stack = {booksproject}
+                
+            />  
 
             <Project 
                 name ='Weather app' 
